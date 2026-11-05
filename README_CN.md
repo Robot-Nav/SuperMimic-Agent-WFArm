@@ -16,6 +16,16 @@
 
 本仓库发布训练、评估、参考生成代码和使用说明。机器人 URDF、网格、标定、训练数据、模型权重、视频及内部实验文档不随仓库分发。没有私有机器人资源也可以运行算法单元测试；完整机器人仿真需要另外提供有权使用的资产。
 
+---
+
+**图片**：<img width="1440" height="540" alt="fixed_arm_showcase_contact_sheet" src="https://github.com/user-attachments/assets/fec88e0f-fa53-402b-a322-af3309023700" />
+
+
+**视频**：
+
+---
+
+
 ## 项目名称
 
 - **SuperMimic**：学习可微动力学，并通过 BPTT 优化控制策略。
