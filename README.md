@@ -14,6 +14,16 @@ The main learning mechanism comes from [SuperMimic](https://arxiv.org/abs/2610.2
 
 This repository distributes training and evaluation code. Robot descriptions, meshes, calibration, datasets, checkpoints, videos and internal experiment reports are supplied separately or kept private. Full WF-Arm simulation requires authorized robot assets. The asset-free tests run without them.
 
+---
+
+**png**：<img width="1440" height="540" alt="fixed_arm_showcase_contact_sheet" src="https://github.com/user-attachments/assets/fec88e0f-fa53-402b-a322-af3309023700" />
+
+
+**video**：
+
+
+---
+
 ## What the name means
 
 - **SuperMimic**: the learned-world-model and backpropagation-through-time learning mechanism.
