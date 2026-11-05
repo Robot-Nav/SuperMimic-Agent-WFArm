@@ -1,0 +1,6 @@
+# Optional offline WBC reference generation and constraint diagnostics.
+# The deployed unified Actor and the main WF training do not import these QP solvers.
+-r requirements-wf.txt
+scipy>=1.11,<2
+osqp>=0.6.7,<0.7
+quadprog>=0.1.13,<0.2

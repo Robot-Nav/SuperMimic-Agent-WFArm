@@ -1,0 +1,4 @@
+# Optional MP4 writer for supermimic.wf.play --video. EGL support is system-owned.
+-r requirements-wf.txt
+imageio>=2.30,<3
+imageio-ffmpeg>=0.5,<1
