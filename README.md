@@ -22,6 +22,23 @@ This repository distributes training and evaluation code. Robot descriptions, me
 **video**：
 
 
+**Process**:  
+In this project, the teacher is the expert demonstration data generator, the student is the control policy being trained, and the world model is responsible for learning the dynamics. The three are connected through the following process:  
+
+1. **Collect Data: Expert demonstrations and policy tries**  
+The MimicAgent trajectory program proposes the desired motion, and the demonstration controller executes it in MuJoCo via motor commands. The actual "state, action, next state" that passes the physical filter becomes the expert demonstration. The current policy also runs in MuJoCo to collect data from its own executions.  
+
+2. **Train the World Model: Learn the results of actions**  
+The world model uses real state transitions to learn "current state + action → next state," for example, how a joint position command changes the angles and velocities of a robotic arm. It’s responsible for predicting motion outcomes.  
+
+3. **Train the Control Policy: Learn what actions to output**  
+The student policy outputs actions based on the current state and targets. The world model predicts the resulting motion, and task rewards like end-point errors are used to backpropagate gradients through the world model to update the policy parameters. The world model parameters are temporarily fixed while updating the policy. Expert demonstration actions can also provide imitation guidance to help the policy learn.  
+
+4. **Test in MuJoCo: Check if the policy actually works**  
+The trained policy is used to control the robotic arm in practice, checking if reaching and tracking are successful, errors, collisions, or boundary violations. Actions that the expert can perform must be independently completed by the student to be considered learned. Accurate world model predictions still need actual control validation. Final independent test data is kept separate and not used for training.
+
+
+
 ---
 
 ## What the name means
