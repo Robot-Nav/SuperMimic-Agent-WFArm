@@ -21,7 +21,7 @@
 **图片**：<img width="1440" height="540" alt="fixed_arm_showcase_contact_sheet" src="https://github.com/user-attachments/assets/fec88e0f-fa53-402b-a322-af3309023700" />
 
 
-**视频**：
+**视频**：https://www.bilibili.com/video/BV1jcWb6BEKQ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=3e0503d2af778f71bc1d1405b8a87d65
 
 
 **流程**：
