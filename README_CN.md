@@ -18,10 +18,16 @@
 
 ---
 
-**图片**：<img width="1440" height="540" alt="fixed_arm_showcase_contact_sheet" src="https://github.com/user-attachments/assets/fec88e0f-fa53-402b-a322-af3309023700" />
+**png**：
+
+<img width="1440" height="540" alt="fixed_arm_showcase_contact_sheet" src="https://github.com/user-attachments/assets/fec88e0f-fa53-402b-a322-af3309023700" />
+<img width="1920" height="720" alt="image" src="https://github.com/user-attachments/assets/45bcf651-a02a-44f5-adcf-d5bdea9f7361" />
 
 
-**视频**：https://www.bilibili.com/video/BV1jcWb6BEKQ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=3e0503d2af778f71bc1d1405b8a87d65
+
+**video**：
+
+https://www.bilibili.com/video/BV1jcWb6BEKQ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=3e0503d2af778f71bc1d1405b8a87d65
 
 
 **流程**：
